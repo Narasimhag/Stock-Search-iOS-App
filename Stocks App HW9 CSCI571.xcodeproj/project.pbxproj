@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4015474825635D5000E43D42 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4015474725635D5000E43D42 /* Alamofire */; };
+		4015474E25635D8B00E43D42 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 4015474D25635D8B00E43D42 /* SwiftyJSON */; };
+		4015475425635DC200E43D42 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 4015475325635DC200E43D42 /* Kingfisher */; };
+		4015475625635DC200E43D42 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4015475525635DC200E43D42 /* KingfisherSwiftUI */; };
+		4015475B2563676B00E43D42 /* StockListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015475A2563676B00E43D42 /* StockListItem.swift */; };
+		4015475C2563676B00E43D42 /* StockListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015475A2563676B00E43D42 /* StockListItem.swift */; };
+		4015475D2563676B00E43D42 /* StockListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015475A2563676B00E43D42 /* StockListItem.swift */; };
+		4015476C2565091900E43D42 /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015476B2565091900E43D42 /* StocksView.swift */; };
+		4015476D2565091900E43D42 /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015476B2565091900E43D42 /* StocksView.swift */; };
+		4015476E2565091900E43D42 /* StocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015476B2565091900E43D42 /* StocksView.swift */; };
+		4015477325650DA900E43D42 /* StockListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015477225650DA900E43D42 /* StockListItemView.swift */; };
+		4015477425650DA900E43D42 /* StockListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015477225650DA900E43D42 /* StockListItemView.swift */; };
+		4015477525650DA900E43D42 /* StockListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015477225650DA900E43D42 /* StockListItemView.swift */; };
+		401547952566023200E43D42 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547942566023200E43D42 /* StockViewModel.swift */; };
+		401547962566023200E43D42 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547942566023200E43D42 /* StockViewModel.swift */; };
+		401547972566023200E43D42 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547942566023200E43D42 /* StockViewModel.swift */; };
+		4015479C2566161A00E43D42 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015479B2566161900E43D42 /* Favorites.swift */; };
+		4015479D2566161A00E43D42 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015479B2566161900E43D42 /* Favorites.swift */; };
+		4015479E2566161A00E43D42 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015479B2566161900E43D42 /* Favorites.swift */; };
+		401547A32566162B00E43D42 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A22566162B00E43D42 /* Portfolio.swift */; };
+		401547A42566162B00E43D42 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A22566162B00E43D42 /* Portfolio.swift */; };
+		401547A52566162B00E43D42 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A22566162B00E43D42 /* Portfolio.swift */; };
+		401547AA256656C000E43D42 /* StockDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A9256656C000E43D42 /* StockDetailsView.swift */; };
+		401547AB256656C000E43D42 /* StockDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A9256656C000E43D42 /* StockDetailsView.swift */; };
+		401547AC256656C000E43D42 /* StockDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401547A9256656C000E43D42 /* StockDetailsView.swift */; };
+		408561E7255CA75D001D866E /* Stocks_App_HW9_CSCI571App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408561E6255CA75D001D866E /* Stocks_App_HW9_CSCI571App.swift */; };
+		408561E9255CA75D001D866E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408561E8255CA75D001D866E /* ContentView.swift */; };
+		408561EE255CA75F001D866E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408561ED255CA75F001D866E /* Preview Assets.xcassets */; };
+		408561F9255CA75F001D866E /* Stocks_App_HW9_CSCI571Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408561F8255CA75F001D866E /* Stocks_App_HW9_CSCI571Tests.swift */; };
+		40856204255CA75F001D866E /* Stocks_App_HW9_CSCI571UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40856203255CA75F001D866E /* Stocks_App_HW9_CSCI571UITests.swift */; };
+		40856215255CA7DB001D866E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40856214255CA7DB001D866E /* Assets.xcassets */; };
+		40856216255CA7DB001D866E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40856214255CA7DB001D866E /* Assets.xcassets */; };
+		40856217255CA7DB001D866E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40856214255CA7DB001D866E /* Assets.xcassets */; };
+		4093DAD325772D3B008F8ABC /* SearchResultItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093DAD225772D3B008F8ABC /* SearchResultItem.swift */; };
+		4093DAD925773D1F008F8ABC /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093DAD825773D1F008F8ABC /* SearchBar.swift */; };
+		409E4FFB2574A34D0012EBFF /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409E4FFA2574A34D0012EBFF /* SearchResult.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408561F5255CA75F001D866E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408561DB255CA75D001D866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408561E2255CA75D001D866E;
+			remoteInfo = "Stocks App HW9 CSCI571";
+		};
+		40856200255CA75F001D866E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408561DB255CA75D001D866E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408561E2255CA75D001D866E;
+			remoteInfo = "Stocks App HW9 CSCI571";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4015475A2563676B00E43D42 /* StockListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListItem.swift; sourceTree = "<group>"; };
+		4015476B2565091900E43D42 /* StocksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksView.swift; sourceTree = "<group>"; };
+		4015477225650DA900E43D42 /* StockListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListItemView.swift; sourceTree = "<group>"; };
+		401547942566023200E43D42 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		4015479B2566161900E43D42 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		401547A22566162B00E43D42 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		401547A9256656C000E43D42 /* StockDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsView.swift; sourceTree = "<group>"; };
+		408561E3255CA75D001D866E /* Stocks App HW9 CSCI571.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stocks App HW9 CSCI571.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408561E6255CA75D001D866E /* Stocks_App_HW9_CSCI571App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_HW9_CSCI571App.swift; sourceTree = "<group>"; };
+		408561E8255CA75D001D866E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		408561ED255CA75F001D866E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		408561EF255CA75F001D866E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408561F4255CA75F001D866E /* Stocks App HW9 CSCI571Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks App HW9 CSCI571Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		408561F8255CA75F001D866E /* Stocks_App_HW9_CSCI571Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_HW9_CSCI571Tests.swift; sourceTree = "<group>"; };
+		408561FA255CA75F001D866E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408561FF255CA75F001D866E /* Stocks App HW9 CSCI571UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stocks App HW9 CSCI571UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40856203255CA75F001D866E /* Stocks_App_HW9_CSCI571UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stocks_App_HW9_CSCI571UITests.swift; sourceTree = "<group>"; };
+		40856205255CA75F001D866E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40856214255CA7DB001D866E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
+		4093DAD225772D3B008F8ABC /* SearchResultItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultItem.swift; sourceTree = "<group>"; };
+		4093DAD825773D1F008F8ABC /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		409E4FFA2574A34D0012EBFF /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408561E0255CA75D001D866E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4015475425635DC200E43D42 /* Kingfisher in Frameworks */,
+				4015474E25635D8B00E43D42 /* SwiftyJSON in Frameworks */,
+				4015475625635DC200E43D42 /* KingfisherSwiftUI in Frameworks */,
+				4015474825635D5000E43D42 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561F1255CA75F001D866E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561FC255CA75F001D866E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401547402561F49200E43D42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4015476B2565091900E43D42 /* StocksView.swift */,
+				4015477225650DA900E43D42 /* StockListItemView.swift */,
+				401547A9256656C000E43D42 /* StockDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		401547412561F49F00E43D42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4015475A2563676B00E43D42 /* StockListItem.swift */,
+				4015479B2566161900E43D42 /* Favorites.swift */,
+				401547A22566162B00E43D42 /* Portfolio.swift */,
+				4093DAD225772D3B008F8ABC /* SearchResultItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		401547422561F4B500E43D42 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				401547942566023200E43D42 /* StockViewModel.swift */,
+				409E4FFA2574A34D0012EBFF /* SearchResult.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		408561DA255CA75D001D866E = {
+			isa = PBXGroup;
+			children = (
+				408561E5255CA75D001D866E /* Stocks App HW9 CSCI571 */,
+				408561F7255CA75F001D866E /* Stocks App HW9 CSCI571Tests */,
+				40856202255CA75F001D866E /* Stocks App HW9 CSCI571UITests */,
+				408561E4255CA75D001D866E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408561E4255CA75D001D866E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408561E3255CA75D001D866E /* Stocks App HW9 CSCI571.app */,
+				408561F4255CA75F001D866E /* Stocks App HW9 CSCI571Tests.xctest */,
+				408561FF255CA75F001D866E /* Stocks App HW9 CSCI571UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408561E5255CA75D001D866E /* Stocks App HW9 CSCI571 */ = {
+			isa = PBXGroup;
+			children = (
+				408561E6255CA75D001D866E /* Stocks_App_HW9_CSCI571App.swift */,
+				408561E8255CA75D001D866E /* ContentView.swift */,
+				40856214255CA7DB001D866E /* Assets.xcassets */,
+				401547422561F4B500E43D42 /* ViewModels */,
+				401547402561F49200E43D42 /* Views */,
+				401547412561F49F00E43D42 /* Models */,
+				408561EF255CA75F001D866E /* Info.plist */,
+				4093DAD725773CEC008F8ABC /* Depends */,
+				408561EC255CA75F001D866E /* Preview Content */,
+			);
+			path = "Stocks App HW9 CSCI571";
+			sourceTree = "<group>";
+		};
+		408561EC255CA75F001D866E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				408561ED255CA75F001D866E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		408561F7255CA75F001D866E /* Stocks App HW9 CSCI571Tests */ = {
+			isa = PBXGroup;
+			children = (
+				408561F8255CA75F001D866E /* Stocks_App_HW9_CSCI571Tests.swift */,
+				408561FA255CA75F001D866E /* Info.plist */,
+			);
+			path = "Stocks App HW9 CSCI571Tests";
+			sourceTree = "<group>";
+		};
+		40856202255CA75F001D866E /* Stocks App HW9 CSCI571UITests */ = {
+			isa = PBXGroup;
+			children = (
+				40856203255CA75F001D866E /* Stocks_App_HW9_CSCI571UITests.swift */,
+				40856205255CA75F001D866E /* Info.plist */,
+			);
+			path = "Stocks App HW9 CSCI571UITests";
+			sourceTree = "<group>";
+		};
+		4093DAD725773CEC008F8ABC /* Depends */ = {
+			isa = PBXGroup;
+			children = (
+				4093DAD825773D1F008F8ABC /* SearchBar.swift */,
+			);
+			path = Depends;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408561E2255CA75D001D866E /* Stocks App HW9 CSCI571 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40856208255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571" */;
+			buildPhases = (
+				408561DF255CA75D001D866E /* Sources */,
+				408561E0255CA75D001D866E /* Frameworks */,
+				408561E1255CA75D001D866E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stocks App HW9 CSCI571";
+			packageProductDependencies = (
+				4015474725635D5000E43D42 /* Alamofire */,
+				4015474D25635D8B00E43D42 /* SwiftyJSON */,
+				4015475325635DC200E43D42 /* Kingfisher */,
+				4015475525635DC200E43D42 /* KingfisherSwiftUI */,
+			);
+			productName = "Stocks App HW9 CSCI571";
+			productReference = 408561E3255CA75D001D866E /* Stocks App HW9 CSCI571.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408561F3255CA75F001D866E /* Stocks App HW9 CSCI571Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4085620B255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571Tests" */;
+			buildPhases = (
+				408561F0255CA75F001D866E /* Sources */,
+				408561F1255CA75F001D866E /* Frameworks */,
+				408561F2255CA75F001D866E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408561F6255CA75F001D866E /* PBXTargetDependency */,
+			);
+			name = "Stocks App HW9 CSCI571Tests";
+			productName = "Stocks App HW9 CSCI571Tests";
+			productReference = 408561F4255CA75F001D866E /* Stocks App HW9 CSCI571Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		408561FE255CA75F001D866E /* Stocks App HW9 CSCI571UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4085620E255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571UITests" */;
+			buildPhases = (
+				408561FB255CA75F001D866E /* Sources */,
+				408561FC255CA75F001D866E /* Frameworks */,
+				408561FD255CA75F001D866E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40856201255CA75F001D866E /* PBXTargetDependency */,
+			);
+			name = "Stocks App HW9 CSCI571UITests";
+			productName = "Stocks App HW9 CSCI571UITests";
+			productReference = 408561FF255CA75F001D866E /* Stocks App HW9 CSCI571UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408561DB255CA75D001D866E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					408561E2255CA75D001D866E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					408561F3255CA75F001D866E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 408561E2255CA75D001D866E;
+					};
+					408561FE255CA75F001D866E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 408561E2255CA75D001D866E;
+					};
+				};
+			};
+			buildConfigurationList = 408561DE255CA75D001D866E /* Build configuration list for PBXProject "Stocks App HW9 CSCI571" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408561DA255CA75D001D866E;
+			packageReferences = (
+				4015474625635D5000E43D42 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				4015474C25635D8B00E43D42 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				4015475225635DC200E43D42 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 408561E4255CA75D001D866E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408561E2255CA75D001D866E /* Stocks App HW9 CSCI571 */,
+				408561F3255CA75F001D866E /* Stocks App HW9 CSCI571Tests */,
+				408561FE255CA75F001D866E /* Stocks App HW9 CSCI571UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408561E1255CA75D001D866E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408561EE255CA75F001D866E /* Preview Assets.xcassets in Resources */,
+				40856215255CA7DB001D866E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561F2255CA75F001D866E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40856216255CA7DB001D866E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561FD255CA75F001D866E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40856217255CA7DB001D866E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408561DF255CA75D001D866E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401547A32566162B00E43D42 /* Portfolio.swift in Sources */,
+				4015475B2563676B00E43D42 /* StockListItem.swift in Sources */,
+				409E4FFB2574A34D0012EBFF /* SearchResult.swift in Sources */,
+				4015477325650DA900E43D42 /* StockListItemView.swift in Sources */,
+				4015476C2565091900E43D42 /* StocksView.swift in Sources */,
+				4093DAD925773D1F008F8ABC /* SearchBar.swift in Sources */,
+				401547952566023200E43D42 /* StockViewModel.swift in Sources */,
+				4093DAD325772D3B008F8ABC /* SearchResultItem.swift in Sources */,
+				4015479C2566161A00E43D42 /* Favorites.swift in Sources */,
+				408561E9255CA75D001D866E /* ContentView.swift in Sources */,
+				408561E7255CA75D001D866E /* Stocks_App_HW9_CSCI571App.swift in Sources */,
+				401547AA256656C000E43D42 /* StockDetailsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561F0255CA75F001D866E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4015477425650DA900E43D42 /* StockListItemView.swift in Sources */,
+				401547962566023200E43D42 /* StockViewModel.swift in Sources */,
+				4015476D2565091900E43D42 /* StocksView.swift in Sources */,
+				401547A42566162B00E43D42 /* Portfolio.swift in Sources */,
+				4015479D2566161A00E43D42 /* Favorites.swift in Sources */,
+				408561F9255CA75F001D866E /* Stocks_App_HW9_CSCI571Tests.swift in Sources */,
+				401547AB256656C000E43D42 /* StockDetailsView.swift in Sources */,
+				4015475C2563676B00E43D42 /* StockListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408561FB255CA75F001D866E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4015477525650DA900E43D42 /* StockListItemView.swift in Sources */,
+				401547972566023200E43D42 /* StockViewModel.swift in Sources */,
+				4015476E2565091900E43D42 /* StocksView.swift in Sources */,
+				401547A52566162B00E43D42 /* Portfolio.swift in Sources */,
+				4015479E2566161A00E43D42 /* Favorites.swift in Sources */,
+				40856204255CA75F001D866E /* Stocks_App_HW9_CSCI571UITests.swift in Sources */,
+				401547AC256656C000E43D42 /* StockDetailsView.swift in Sources */,
+				4015475D2563676B00E43D42 /* StockListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408561F6255CA75F001D866E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408561E2255CA75D001D866E /* Stocks App HW9 CSCI571 */;
+			targetProxy = 408561F5255CA75F001D866E /* PBXContainerItemProxy */;
+		};
+		40856201255CA75F001D866E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408561E2255CA75D001D866E /* Stocks App HW9 CSCI571 */;
+			targetProxy = 40856200255CA75F001D866E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40856206255CA75F001D866E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40856207255CA75F001D866E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40856209255CA75F001D866E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stocks App HW9 CSCI571/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4085620A255CA75F001D866E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Stocks App HW9 CSCI571/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4085620C255CA75F001D866E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stocks App HW9 CSCI571.app/Stocks App HW9 CSCI571";
+			};
+			name = Debug;
+		};
+		4085620D255CA75F001D866E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stocks App HW9 CSCI571.app/Stocks App HW9 CSCI571";
+			};
+			name = Release;
+		};
+		4085620F255CA75F001D866E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stocks App HW9 CSCI571";
+			};
+			name = Debug;
+		};
+		40856210255CA75F001D866E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stocks App HW9 CSCI571UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.narasimha.Stocks-App-HW9-CSCI571UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stocks App HW9 CSCI571";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408561DE255CA75D001D866E /* Build configuration list for PBXProject "Stocks App HW9 CSCI571" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40856206255CA75F001D866E /* Debug */,
+				40856207255CA75F001D866E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40856208255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40856209255CA75F001D866E /* Debug */,
+				4085620A255CA75F001D866E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4085620B255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4085620C255CA75F001D866E /* Debug */,
+				4085620D255CA75F001D866E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4085620E255CA75F001D866E /* Build configuration list for PBXNativeTarget "Stocks App HW9 CSCI571UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4085620F255CA75F001D866E /* Debug */,
+				40856210255CA75F001D866E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4015474625635D5000E43D42 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
+		4015474C25635D8B00E43D42 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4015475225635DC200E43D42 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4015474725635D5000E43D42 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4015474625635D5000E43D42 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4015474D25635D8B00E43D42 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4015474C25635D8B00E43D42 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		4015475325635DC200E43D42 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4015475225635DC200E43D42 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		4015475525635DC200E43D42 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4015475225635DC200E43D42 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 408561DB255CA75D001D866E /* Project object */;
+}
